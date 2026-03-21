@@ -4,35 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1>Mercado</h1>
-    <form action="">
-        <fieldset>
-            <legend>Açougue</legend>
-            <input type="checkbox" name="escem" id="iescem"> <label for="iescem">Acém</label> <br>
-            <input type="checkbox" name="espst" id="iespst"> <label for="iespst">Patinho</label> <br>
-            <input type="checkbox" name="espic" id="iespic"> <label for="iespic">Picanha</label> <br>
-            <input type="checkbox" name="esalc" id="iesalc"> <label for="iesalc">Alcatra</label> <br>
-            <input type="checkbox" name="esfil" id="iesfil"> File de Sasame <br>
-            <input type="checkbox" name="espei" id="iespei"> Peito de Frango <br>
-            <input type="checkbox" name="escox" id="iescox"> Coxa de Frango <br>
-        </fieldset>
-        <fieldset>
-            <legend>Hortifrut</legend>
-            <input type="checkbox" name="esmsn" id="iesmsn"> Manga <br>
-            <input type="checkbox" name="eslar" id="ieslar"> Laránja <br>
-            <input type="checkbox" name="esmel" id="iesmel"> Meláncia <br>
-            <input type="checkbox" name="esmex" id="iesmex"> Mexirica <br>
-            <input type="checkbox" name="esban" id="iesban"> Banana <br>
-            <input type="checkbox" name="esmea" id="iesmea"> Melão <br>
-            <input type="checkbox" name="eskiw" id="ieskiw"> Kiwi
-        </fieldset>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
-    </form>
+    <header>
+        <h1>Mercado</h1>
+    </header>
+    <nav>
+        <a href="#açougue">Açouque</a>
+        <a href="#hortifrut">Hortifrut</a> 
+        <a href="#">Padaria</a>
+        <a href="#">Linpeza</a>
+        <a href="#">Outros</a>
 
+    </nav>
+    <main>
+        <form action="">
+            <section id="açougue" class="panel">
+                <fieldset>
+                    <legend>Açougue</legend>
+                    <input type="checkbox" name="escem" id="iescem"> <label for="iescem">Acém</label> <br>
+                    <input type="checkbox" name="espst" id="iespst"> <label for="iespst">Patinho</label> <br>
+                    <input type="checkbox" name="espic" id="iespic"> <label for="iespic">Picanha</label> <br>
+                    <input type="checkbox" name="esalc" id="iesalc"> <label for="iesalc">Alcatra</label> <br>
+                    <input type="checkbox" name="esfil" id="iesfil"> File de Sasame <br>
+                    <input type="checkbox" name="espei" id="iespei"> Peito de Frango <br>
+                    <input type="checkbox" name="escox" id="iescox"> Coxa de Frango <br>
+                </fieldset>
+                </section>
+                <section id="hortifrut" class="panel">
+                <fieldset>
+                    <legend>Hortifrut</legend>
+                    <input type="checkbox" name="esmsn" id="iesmsn"> Manga <br>
+                    <input type="checkbox" name="eslar" id="ieslar"> Laránja <br>
+                    <input type="checkbox" name="esmel" id="iesmel"> Meláncia <br>
+                    <input type="checkbox" name="esmex" id="iesmex"> Mexirica <br>
+                    <input type="checkbox" name="esban" id="iesban"> Banana <br>
+                    <input type="checkbox" name="esmea" id="iesmea"> Melão <br>
+                    <input type="checkbox" name="eskiw" id="ieskiw"> Kiwi
+                </fieldset>
+            </section>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>
+            Site escrito por Nelson Rangel.
+        </p>
+    </footer>
 </body>
 </html>
